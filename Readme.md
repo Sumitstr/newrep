@@ -1,1 +1,65 @@
-#sumit
+#Writingreadmefiles:
+##Styling:--Tomaketextbolduse**writeindouble
+ stars**-Tomaketextitalicsuse*writeinsingle
+ stars*-subscriptcanbedonebyx<sub>n</sub>-superscriptcanbedonebyx<sup>n</sup>-Thisisan<ins>underlined</ins>text
+ ##Quotingtext:--Youcanquotetextwitha>.-Textthatisnotaquote
+ >Textthatisaquote
+ ##links:--formattoinsertlinkis
+ '[description](requiredlink)'-Thissitewasbuiltusing[GitHub
+ Pages](https://pages.github.com/).
+ ##Images:--Hereistheimages:
+ ![image
+ 1](https://astrix.security/wp-content/uploads
+ /2024/05/GitHub-Apps-Bug-Created-Significant
+3rd-Party-Risk_-How-You-Can-Stay-Protected-1.
+ png).
+##lists:
+###orderedlist
+ 1.JamesMadison
+ 2.JamesMonroe
+ 3.JohnQuincyAdams
+ ###unorderedlist-GeorgeWashington
+ *JohnAdams
+ +ThomasJefferson
+ ###tasklist-[x]Git-[]Latex
+ ##FootNotes:--Hereisasimplefootnote[^1].-Afootnotecanalsohavemultiple
+ lines[^2].
+ [^1]:Myreference.
+ [^2]:Toaddlinebreakswithinafootnote,
+ prefixnewlineswith2spaces.
+ Thisisasecondline.
+ ##Alerts:
+>[!NOTE]
+ >Usefulinformationthatusersshouldknow,
+ evenwhenskimmingcontent.
+>[!TIP]
+ >Helpfuladvicefordoingthingsbetteror
+ moreeasily.
+ >[!IMPORTANT]
+ >Keyinformationusersneedtoknowto
+ achievetheirgoal.
+ ##Code:--Toformatcodeortextintoitsown
+ distinctblock,usetriplebackticks.-SomebasicGitcommandsare:
+ ```
+ gitstatus
+ gitadd
+ gitcommit
+ ```
+ ##MathematicalExpression:--Toenableclearcommunicationof
+ mathematicalexpressions,GitHubsupports
+ LaTeXformattedmathwithinMarkdown.-Thissentenceuses`$`delimiterstoshow
+ mathinline: $\sqrt{3x-1}+(1+x)^2$
+ ##TablesinREADMEfile:
+-Youcancreatetableswithpipes|and
+ hyphens-.Hyphensareusedtocreateeach
+ column'sheader,whilepipesseparateeach
+ column.Youmustincludeablanklinebefore
+ yourtableinorderforittocorrectly
+ render.
+ |Command |Description
+ |
+ |-------------|-----------------------------------------------|
+ |`gitstatus`|Listallnewormodified
+ files |
+ |`gitdiff` |Showfiledifferencesthat
+ haven'tbeenstaged|
